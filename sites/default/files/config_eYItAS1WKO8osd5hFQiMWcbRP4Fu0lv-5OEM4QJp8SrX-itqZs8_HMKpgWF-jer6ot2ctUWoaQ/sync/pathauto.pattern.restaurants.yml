@@ -1,0 +1,22 @@
+uuid: faab10d2-6369-4dcb-aa46-f8da6e881971
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: restaurants
+label: restaurants
+type: 'canonical_entities:node'
+pattern: 'restaurants/[node:title]'
+selection_criteria:
+  9a3d8b54-a5ab-4f24-ac02-dcd7257896ae:
+    id: node_type
+    bundles:
+      restaurant: restaurant
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9a3d8b54-a5ab-4f24-ac02-dcd7257896ae
+selection_logic: and
+weight: -5
+relationships: {  }

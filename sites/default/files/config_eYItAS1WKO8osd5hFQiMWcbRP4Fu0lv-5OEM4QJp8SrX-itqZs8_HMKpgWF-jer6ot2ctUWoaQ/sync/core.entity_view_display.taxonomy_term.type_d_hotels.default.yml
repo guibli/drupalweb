@@ -1,0 +1,40 @@
+uuid: d201e546-47bc-4063-b305-1058b7a4b296
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.type_d_hotels.field_icone_type_hotel
+    - image.style.thumbnail
+    - taxonomy.vocabulary.type_d_hotels
+  module:
+    - ds
+    - image
+    - text
+id: taxonomy_term.type_d_hotels.default
+targetEntityType: taxonomy_term
+bundle: type_d_hotels
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_icone_type_hotel:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: image
+hidden:
+  langcode: true

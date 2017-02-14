@@ -1,0 +1,20 @@
+uuid: 9804dfef-554f-4554-aac5-7e7097391e0a
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - ive
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: ive_local_actions
+theme: ive
+region: content
+weight: -11
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  provider: core
+  label_display: '0'
+visibility: {  }

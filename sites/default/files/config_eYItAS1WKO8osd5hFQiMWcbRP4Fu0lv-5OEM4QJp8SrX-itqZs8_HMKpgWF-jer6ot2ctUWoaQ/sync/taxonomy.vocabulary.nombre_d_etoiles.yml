@@ -1,0 +1,9 @@
+uuid: e81c2e01-ddaa-4f40-acbe-a4f7bdc22757
+langcode: en
+status: true
+dependencies: {  }
+name: 'Nombre d''étoiles'
+vid: nombre_d_etoiles
+description: 'Nombre d''étoiles'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,102 @@
+uuid: 9b049491-b8b8-44e2-97cc-67f1170adc13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.restaurant.field_note
+    - field.field.node.restaurant.field_photos_restaurant
+    - field.field.node.restaurant.field_restau_hotel
+    - field.field.node.restaurant.field_restaurant_description
+    - field.field.node.restaurant.field_tweet
+    - image.style.thumbnail
+    - node.type.restaurant
+  module:
+    - entity_reference_revisions
+    - fivestar
+    - image
+    - path
+    - text
+id: node.restaurant.default
+targetEntityType: node
+bundle: restaurant
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_note:
+    weight: 34
+    settings:
+      fivestar_widget: modules/fivestar/widgets/basic/basic.css
+    third_party_settings: {  }
+    type: fivestar_stars
+  field_photos_restaurant:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_restau_hotel:
+    weight: 33
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_restaurant_description:
+    weight: 31
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  field_tweet:
+    weight: 35
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_autocomplete
+  langcode:
+    type: language_select
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,13 @@
+uuid: 3bbd00c3-5545-47c6-9ab2-09c6b7d61e13
+langcode: fr
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: TSkg_gUZvk-39yXFrIFnKjsxuEzO0qBH82TdDxOMMr4
+id: comment_save_action
+label: 'Enregistrer le commentaire'
+type: comment
+plugin: comment_save_action
+configuration: {  }

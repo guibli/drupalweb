@@ -1,0 +1,9 @@
+id: switch
+label: switch
+ui_limit: ''
+properties:
+  ds_plugin: switch_field
+type: copy
+type_label: 'Copy field'
+entities:
+  node: node

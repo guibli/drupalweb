@@ -1,0 +1,32 @@
+uuid: 7e094a78-7d99-476c-b330-b3b0f6b0daee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.visite_de_l_hotel.field_desciption_visite
+    - field.field.paragraph.visite_de_l_hotel.field_video_h
+    - paragraphs.paragraphs_type.visite_de_l_hotel
+  module:
+    - text
+    - video_embed_field
+id: paragraph.visite_de_l_hotel.default
+targetEntityType: paragraph
+bundle: visite_de_l_hotel
+mode: default
+content:
+  field_desciption_visite:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  field_video_h:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+hidden:
+  created: true
+  status: true
+  uid: true

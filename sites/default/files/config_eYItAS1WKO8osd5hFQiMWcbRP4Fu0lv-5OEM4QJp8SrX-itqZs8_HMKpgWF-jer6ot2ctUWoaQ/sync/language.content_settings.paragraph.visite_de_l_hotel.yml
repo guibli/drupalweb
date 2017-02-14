@@ -1,0 +1,16 @@
+uuid: fdfa63e6-eea2-45f7-9b24-d73209d75225
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.visite_de_l_hotel
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.visite_de_l_hotel
+target_entity_type_id: paragraph
+target_bundle: visite_de_l_hotel
+default_langcode: site_default
+language_alterable: false

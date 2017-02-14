@@ -1,0 +1,28 @@
+uuid: a7cbf7a5-edc5-4566-9aed-2fcfac63fb77
+langcode: en
+status: false
+dependencies:
+  config:
+    - facets.facet.tags
+  module:
+    - block_visibility_groups
+    - facets
+  theme:
+    - mybootstrap
+id: tags
+theme: mybootstrap
+region: '-1'
+weight: -7
+provider: null
+plugin: 'facet_block:tags'
+settings:
+  id: 'facet_block:tags'
+  label: Tags
+  provider: facets
+  label_display: visible
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

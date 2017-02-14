@@ -1,0 +1,6 @@
+enable_override: 1
+view: hotels
+view_display: page_1
+inherit_settings: 0
+pass_arguments: 0
+uuid: b3e340a3-6131-46cb-a2c4-12a235507ac8

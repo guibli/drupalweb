@@ -1,0 +1,12 @@
+uuid: 3c944853-f853-4384-94bb-56b4e61a7d98
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: Onwyr2kH5zCeHvMfSSPDJIKUKrvX7x7tAr-7Uv_-k-c
+id: titles
+label: Titles
+options: "Miss: Miss\nMs: Ms\nMr: Mr\nMrs: Mrs\nDr: Dr\n"

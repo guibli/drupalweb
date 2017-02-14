@@ -1,0 +1,30 @@
+uuid: ce5a5b63-f5fa-429e-8697-a7f2dab54f14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_note
+    - node.type.restaurant
+  module:
+    - fivestar
+id: node.restaurant.field_note
+field_name: field_note
+entity_type: node
+bundle: restaurant
+label: Note
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    rating: '60'
+    target: null
+default_value_callback: ''
+settings:
+  stars: '5'
+  allow_clear: 0
+  allow_revote: 1
+  allow_ownvote: 1
+  rated_while: viewing
+  target: ''
+field_type: fivestar

@@ -1,0 +1,17 @@
+uuid: 472c3fee-0f5c-4094-bac4-83fad5c6f006
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qJQJGVM5TwADJrv3moVdUrsXR53w38FkuRPf37OXkYI
+name: narrow
+label: 'Hotel narrow'
+effects:
+  cfb78371-bebc-4a6f-90e1-ec8231489d2a:
+    uuid: cfb78371-bebc-4a6f-90e1-ec8231489d2a
+    id: image_scale
+    weight: 1
+    data:
+      width: 280
+      height: null
+      upscale: false

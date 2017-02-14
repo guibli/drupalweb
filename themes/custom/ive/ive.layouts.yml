@@ -1,0 +1,16 @@
+custom_foursquares:
+  label: Four Squares
+  category: custom
+  path: layouts/custom/foursquares
+  template: custom-foursquares
+  icon: four-squares.png
+  css: four-squares.css
+  regions:
+    column1:
+      label: Column 1
+    column2:
+      label: Column 2
+    column3:
+      label: Column 3
+    column4:
+      label: Column 4

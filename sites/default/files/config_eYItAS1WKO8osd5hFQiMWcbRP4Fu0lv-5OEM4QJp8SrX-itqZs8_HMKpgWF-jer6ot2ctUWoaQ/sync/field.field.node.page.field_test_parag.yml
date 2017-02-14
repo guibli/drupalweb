@@ -1,0 +1,28 @@
+uuid: 51cead7d-25ee-4718-b1e5-4a2a4e1ef967
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_test_parag
+    - node.type.page
+  module:
+    - entity_reference_revisions
+id: node.page.field_test_parag
+field_name: field_test_parag
+entity_type: node
+bundle: page
+label: 'test parag'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    target_bundles_drag_drop:
+      image_text:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

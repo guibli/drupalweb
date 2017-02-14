@@ -1,0 +1,8 @@
+uuid: 2063e470-8745-4b0d-b3a6-017e5df16d7b
+langcode: en
+status: true
+dependencies: {  }
+id: note
+label: Note
+value_type: points
+description: 'Note des restaurants'

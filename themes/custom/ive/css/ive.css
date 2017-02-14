@@ -1,0 +1,76 @@
+.site-branding__name a{
+  color:orange;
+  font-size: 2rem;
+}
+#header{
+  background: #fff;
+}
+.breadcrumb li a,.node--view-mode-teaser h2, .region-primary-menu .menu a{
+    color: orange;
+}
+.region-primary-menu .menu a.is-active {
+    color: #fff;
+    background: orange;
+}
+.sidebar .block{
+  background-color:#fff;
+  border:none;
+}
+h2,h1,.node--view-mode-teaser h2 a{
+  font-size: 2rem;
+  color: orange;
+}
+a,a.link{
+  border:none;
+}
+.page-node-qsn #content{
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+.drupal8{
+  margin-left: 50%;
+}
+
+.column{
+  width: 50%;
+  float:left;
+}
+.node .column .field--type-image {
+  float: right;
+  margin: 0 ;
+}
+.required-text{
+  color:red;
+}
+.customclass{
+  color:red!important;
+}
+.external_links::after {
+  content: '';
+  vertical-align: super;
+  display: inline-block;
+  /* Use a background image to prevent screen readers from announcing the text. */
+  background-image: url(../images/external-link.gif);
+  background-repeat: no-repeat;
+  background-size: 6px 6px;
+  width: 6px;
+  height: 6px;
+  margin: 0 0.3em;
+}
+
+.col-1{
+  background: #00A0B0;
+}
+.col-2{
+  background: #6A4A3C;
+}
+.col-3{
+  background: #CC333F;
+}
+.col-4{
+  background: #EB6841;
+}
+.views-col{
+  margin-bottom: 10px;
+}

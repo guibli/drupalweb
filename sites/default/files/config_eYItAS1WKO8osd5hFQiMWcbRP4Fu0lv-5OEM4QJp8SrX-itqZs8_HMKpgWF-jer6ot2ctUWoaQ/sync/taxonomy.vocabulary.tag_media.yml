@@ -1,0 +1,9 @@
+uuid: 28549406-c0a5-4b57-aed9-d0833377f39f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Tag média'
+vid: tag_media
+description: 'free tagging'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,19 @@
+uuid: 5b95ecf0-16b2-4a33-a5cd-8955dac438e5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OvpcF8WkJvMy_bU3NaRRJwq3u2EX9kmJtGInuhcMUyw
+name: 'Weekly content update'
+id: weekly_content_update
+description: 'Weekly content update newsletter.'
+format: plain
+priority: 0
+receipt: false
+from_name: Drupal
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: guillaume.bleriot@gmail.com
+hyperlinks: true
+new_account: none
+opt_inout: double
+weight: 0

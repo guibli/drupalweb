@@ -1,0 +1,30 @@
+uuid: eb4b1c82-02d2-4bbf-acb5-2c571f5944b5
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.type_hotels
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - myadminimal_theme
+id: myadminimal_theme_views_block__type_hotels_block_1
+theme: myadminimal_theme
+region: '-1'
+weight: 0
+provider: null
+plugin: 'views_block:type_hotels-block_1'
+settings:
+  id: 'views_block:type_hotels-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

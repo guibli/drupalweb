@@ -1,0 +1,8 @@
+uuid: ef30eb92-bd8a-405a-a72a-6ee14cfd0993
+langcode: fr
+status: true
+dependencies: {  }
+id: vlong
+label: vlong
+locked: false
+pattern: 'l Y \à h:m:i'

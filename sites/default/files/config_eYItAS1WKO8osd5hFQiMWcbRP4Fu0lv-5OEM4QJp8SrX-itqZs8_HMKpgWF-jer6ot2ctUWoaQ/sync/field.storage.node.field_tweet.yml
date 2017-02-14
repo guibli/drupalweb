@@ -1,0 +1,21 @@
+uuid: 089155e6-ff91-49fc-a9b0-375949fdaec2
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - media_entity
+    - node
+id: node.field_tweet
+field_name: field_tweet
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: media
+module: entity_reference_revisions
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

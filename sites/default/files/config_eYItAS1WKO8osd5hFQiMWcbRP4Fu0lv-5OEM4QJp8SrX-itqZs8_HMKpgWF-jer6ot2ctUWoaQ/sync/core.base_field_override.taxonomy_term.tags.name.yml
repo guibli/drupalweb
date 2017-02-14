@@ -1,0 +1,18 @@
+uuid: 4cd7d28b-cbea-4f88-9cb9-d3c73547ea1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tags
+id: taxonomy_term.tags.name
+field_name: name
+entity_type: taxonomy_term
+bundle: tags
+label: Name
+description: 'The term name.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

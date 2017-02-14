@@ -1,0 +1,17 @@
+uuid: 11178955-5470-429f-b2a1-3ad81e0d878a
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WoTAe22BbbMv6Tt3wquY8niq2_L-4h0s-t6K_yy9GZs
+name: hotel_wide
+label: 'Hotel wide'
+effects:
+  506532f6-51fa-428c-b18f-05eec4c8f8c4:
+    uuid: 506532f6-51fa-428c-b18f-05eec4c8f8c4
+    id: image_scale
+    weight: 1
+    data:
+      width: 425
+      height: null
+      upscale: false

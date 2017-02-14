@@ -1,0 +1,18 @@
+uuid: 4e56f22c-1691-4e68-8624-a80cc0446a3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.nombre_d_etoiles
+id: taxonomy_term.nombre_d_etoiles.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: nombre_d_etoiles
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

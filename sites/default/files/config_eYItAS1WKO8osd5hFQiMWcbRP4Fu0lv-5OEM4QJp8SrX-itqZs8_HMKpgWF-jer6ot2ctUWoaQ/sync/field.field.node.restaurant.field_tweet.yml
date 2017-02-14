@@ -1,0 +1,30 @@
+uuid: 25920814-9d57-4bc0-8ace-a6edb46a40a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tweet
+    - media_entity.bundle.tweet
+    - node.type.restaurant
+  module:
+    - entity_reference_revisions
+id: node.restaurant.field_tweet
+field_name: field_tweet
+entity_type: node
+bundle: restaurant
+label: tweet
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      tweet: tweet
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference_revisions

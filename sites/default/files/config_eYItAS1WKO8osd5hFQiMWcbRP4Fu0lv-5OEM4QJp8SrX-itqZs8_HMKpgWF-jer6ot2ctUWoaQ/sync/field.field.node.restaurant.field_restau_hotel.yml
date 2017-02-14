@@ -1,0 +1,28 @@
+uuid: 59c28b64-1f39-4518-982f-69580d9c373e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_restau_hotel
+    - node.type.hotel
+    - node.type.restaurant
+id: node.restaurant.field_restau_hotel
+field_name: field_restau_hotel
+entity_type: node
+bundle: restaurant
+label: Hotel
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      hotel: hotel
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

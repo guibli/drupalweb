@@ -1,0 +1,30 @@
+uuid: a4ee0378-8922-48bf-b52d-e6736c35e118
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.page.body
+    - field.field.node.page.field_test_parag
+    - node.type.page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: xBTs8g0qAlUrHQcyKIdGpebgUBgF-FOb_c0Lyu71hVc
+id: node.page.search_index
+targetEntityType: node
+bundle: page
+mode: search_index
+content:
+  body:
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  addtoany: true
+  field_test_parag: true
+  langcode: true
+  links: true

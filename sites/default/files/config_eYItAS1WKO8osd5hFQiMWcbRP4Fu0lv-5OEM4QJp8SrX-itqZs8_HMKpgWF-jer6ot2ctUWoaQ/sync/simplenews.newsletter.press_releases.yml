@@ -1,0 +1,19 @@
+uuid: 5f0735be-d7ee-4c28-b564-b829f93c9906
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jYIZKg9FJFpS9ZKnIhoURB9dBwWzd3sB_-UN_7w4DOA
+name: 'Press releases'
+id: press_releases
+description: 'This is the press release.'
+format: plain
+priority: 0
+receipt: false
+from_name: Drupal
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: guillaume.bleriot@gmail.com
+hyperlinks: true
+new_account: none
+opt_inout: double
+weight: 0

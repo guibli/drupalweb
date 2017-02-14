@@ -1,0 +1,14 @@
+uuid: 0a15e415-de64-4f95-a6d1-9e9ef3f0d9c3
+name: 'Drupal webmaster'
+mail: guillaume.bleriot@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: /search404
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

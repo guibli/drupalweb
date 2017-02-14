@@ -1,0 +1,19 @@
+uuid: 20d2b727-66b7-4020-b1d7-39d4dc35f856
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hj6zGNwndnW_J6lKfFcg-tY5e5YqWfgXyt0qioGtXL8
+name: 'Default newsletter'
+id: default
+description: 'This is an example newsletter. Change it.'
+format: plain
+priority: 0
+receipt: true
+from_name: Drupal
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: guillaume.bleriot@gmail.com
+hyperlinks: false
+new_account: none
+opt_inout: double
+weight: 0

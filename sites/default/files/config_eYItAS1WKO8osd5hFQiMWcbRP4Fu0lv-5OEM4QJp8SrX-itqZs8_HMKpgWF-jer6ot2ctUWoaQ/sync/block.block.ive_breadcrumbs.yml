@@ -1,0 +1,22 @@
+uuid: 94261f48-17ef-4be1-b299-3f6f88460593
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ive
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: ive_breadcrumbs
+theme: ive
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''Ariane'
+  provider: system
+  label_display: '0'
+visibility: {  }

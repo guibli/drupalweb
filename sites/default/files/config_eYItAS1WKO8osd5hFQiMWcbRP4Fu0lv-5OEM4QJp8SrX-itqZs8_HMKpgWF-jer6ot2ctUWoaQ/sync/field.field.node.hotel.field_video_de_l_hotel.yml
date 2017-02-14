@@ -1,0 +1,33 @@
+uuid: a4fd5d87-70ad-4089-ac2f-29a4e0837e91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_de_l_hotel
+    - node.type.hotel
+    - paragraphs.paragraphs_type.visite_de_l_hotel
+  module:
+    - entity_reference_revisions
+id: node.hotel.field_video_de_l_hotel
+field_name: field_video_de_l_hotel
+entity_type: node
+bundle: hotel
+label: 'video de l hotel'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      visite_de_l_hotel: visite_de_l_hotel
+    target_bundles_drag_drop:
+      visite_de_l_hotel:
+        enabled: true
+        weight: 3
+      image_text:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,14 @@
+uuid: 146595ba-823b-4745-bb16-866412100805
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.hotels
+    - taxonomy.vocabulary.nombre_d_etoiles
+id: nombre_etoiles
+label: 'nombre etoiles'
+vocabulary: nombre_d_etoiles
+menu: hotels
+expanded: false
+depth: 0
+menu_parent: 'hotels:menu_link_content:77fd063f-c174-41b3-8e58-cece4dfdae93'

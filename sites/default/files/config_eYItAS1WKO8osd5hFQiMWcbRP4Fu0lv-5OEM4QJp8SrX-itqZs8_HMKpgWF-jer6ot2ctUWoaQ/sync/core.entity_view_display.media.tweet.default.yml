@@ -1,0 +1,42 @@
+uuid: 7461362a-acc4-45f2-92a0-606dacb266a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.tweet.field_media_tags
+    - field.field.media.tweet.field_tw
+    - media_entity.bundle.tweet
+  module:
+    - ds
+    - media_entity_twitter
+id: media.tweet.default
+targetEntityType: media
+bundle: tweet
+mode: default
+content:
+  field_media_tags:
+    weight: -4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  name:
+    label: hidden
+    type: twitter_embed
+    weight: -5
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+hidden:
+  created: true
+  field_tw: true
+  langcode: true
+  thumbnail: true
+  uid: true

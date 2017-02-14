@@ -1,0 +1,21 @@
+uuid: cef61ea4-36a0-456f-a99a-70630bdaea3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_desciption_visite
+    - paragraphs.paragraphs_type.visite_de_l_hotel
+  module:
+    - text
+id: paragraph.visite_de_l_hotel.field_desciption_visite
+field_name: field_desciption_visite
+entity_type: paragraph
+bundle: visite_de_l_hotel
+label: 'desciption visite'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

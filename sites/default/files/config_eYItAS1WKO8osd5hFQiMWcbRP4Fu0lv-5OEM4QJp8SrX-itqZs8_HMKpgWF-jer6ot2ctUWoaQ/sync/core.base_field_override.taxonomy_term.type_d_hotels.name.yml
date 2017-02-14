@@ -1,0 +1,18 @@
+uuid: 2b80ef4e-824e-4e6b-a1ad-49053237ee65
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_d_hotels
+id: taxonomy_term.type_d_hotels.name
+field_name: name
+entity_type: taxonomy_term
+bundle: type_d_hotels
+label: Name
+description: 'The term name.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

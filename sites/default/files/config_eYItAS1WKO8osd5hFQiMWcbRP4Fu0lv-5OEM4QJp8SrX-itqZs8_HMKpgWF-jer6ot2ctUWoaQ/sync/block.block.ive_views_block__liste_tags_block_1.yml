@@ -1,0 +1,30 @@
+uuid: babbf0bb-0abf-4851-9174-dfc342467b11
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.liste_tags
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - ive
+id: ive_views_block__liste_tags_block_1
+theme: ive
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_block:liste_tags-block_1'
+settings:
+  id: 'views_block:liste_tags-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

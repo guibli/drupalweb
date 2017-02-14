@@ -1,0 +1,31 @@
+uuid: 460cf639-fdf3-4dd5-bf67-44ccc1eba68a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:874098ba-1206-43a2-98af-5912525403d0'
+  module:
+    - block_content
+    - block_visibility_groups
+  theme:
+    - mybootstrap
+id: drupal8_3
+theme: mybootstrap
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:874098ba-1206-43a2-98af-5912525403d0'
+settings:
+  id: 'block_content:874098ba-1206-43a2-98af-5912525403d0'
+  label: 'Drupal 8'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

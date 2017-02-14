@@ -1,0 +1,19 @@
+uuid: 7c066b7d-4d41-45e1-a409-6c4ddcf5fc52
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: D9YIL4zGBOqps5GzbmYbOpik9S1ukg-SLLLPvowiC1Q
+name: 'Special offers'
+id: special_offers
+description: 'Special offers newsletter.'
+format: plain
+priority: 0
+receipt: false
+from_name: Drupal
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: guillaume.bleriot@gmail.com
+hyperlinks: true
+new_account: none
+opt_inout: double
+weight: 0

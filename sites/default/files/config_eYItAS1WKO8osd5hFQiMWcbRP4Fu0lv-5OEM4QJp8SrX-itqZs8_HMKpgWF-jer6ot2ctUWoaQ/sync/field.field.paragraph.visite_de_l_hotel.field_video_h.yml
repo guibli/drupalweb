@@ -1,0 +1,25 @@
+uuid: b719a55a-b64c-4f8e-914e-d78f19bfdadf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_video_h
+    - paragraphs.paragraphs_type.visite_de_l_hotel
+  module:
+    - video_embed_field
+id: paragraph.visite_de_l_hotel.field_video_h
+field_name: field_video_h
+entity_type: paragraph
+bundle: visite_de_l_hotel
+label: 'video hôtel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    youtube_playlist: '0'
+    vimeo: '0'
+field_type: video_embed_field

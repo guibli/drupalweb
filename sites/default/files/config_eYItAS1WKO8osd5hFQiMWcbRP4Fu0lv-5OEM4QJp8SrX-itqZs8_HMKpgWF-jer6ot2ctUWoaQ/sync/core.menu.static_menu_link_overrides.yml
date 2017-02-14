@@ -1,0 +1,46 @@
+definitions:
+  contact__site_page:
+    weight: 1
+    menu_name: main
+    parent: ''
+    enabled: true
+    expanded: false
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__menu_nombres_etoiles__1':
+    menu_name: menu-hotel-etoile
+    parent: ''
+    enabled: true
+    expanded: false
+    weight: -50
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__menu_nombres_etoiles__2':
+    menu_name: menu-hotel-etoile
+    parent: ''
+    weight: -49
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__menu_nombres_etoiles__3':
+    menu_name: menu-hotel-etoile
+    parent: ''
+    weight: -48
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__menu_nombres_etoiles__4':
+    menu_name: menu-hotel-etoile
+    parent: ''
+    weight: -47
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__menu_nombres_etoiles__5':
+    menu_name: menu-hotel-etoile
+    parent: ''
+    weight: -46
+    expanded: false
+    enabled: true
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+langcode: fr

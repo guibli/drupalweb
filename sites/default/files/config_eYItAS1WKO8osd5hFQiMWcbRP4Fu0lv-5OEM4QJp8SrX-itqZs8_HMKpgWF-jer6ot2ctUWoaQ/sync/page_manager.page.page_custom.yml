@@ -1,0 +1,12 @@
+uuid: 2c8167e3-2c76-447a-ba95-8232f5b493c4
+langcode: en
+status: true
+dependencies: {  }
+id: page_custom
+label: 'Page custom'
+description: ''
+use_admin_theme: false
+path: /page-custom
+access_logic: and
+access_conditions: {  }
+parameters: {  }

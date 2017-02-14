@@ -1,0 +1,78 @@
+uuid: f6569008-50b5-43fa-be8b-3cf47f891958
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.page_custom
+    - views.view.hotels
+    - views.view.who_s_online
+  content:
+    - 'block_content:basic:874098ba-1206-43a2-98af-5912525403d0'
+  module:
+    - block_content
+    - panels
+    - search
+    - views
+id: page_custom-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    86ebfd8b-970c-4c1d-8681-7c78e68aba2c:
+      id: 'views_block:hotels-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: column2
+      weight: -1
+      uuid: 86ebfd8b-970c-4c1d-8681-7c78e68aba2c
+      context_mapping: {  }
+    b23668d3-46a3-469c-a9fd-1d06d6a7f985:
+      id: 'block_content:874098ba-1206-43a2-98af-5912525403d0'
+      label: 'Drupal 8'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: column1
+      weight: 0
+      uuid: b23668d3-46a3-469c-a9fd-1d06d6a7f985
+      context_mapping: {  }
+    c2747681-f1cf-40e4-a262-27a2e3fb36c5:
+      id: 'views_block:who_s_online-who_s_online_block'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: column4
+      weight: 0
+      uuid: c2747681-f1cf-40e4-a262-27a2e3fb36c5
+      context_mapping: {  }
+    57b79252-4a0b-40c5-be7f-f3f3a0e69695:
+      id: search_form_block
+      label: 'Search form'
+      provider: search
+      label_display: visible
+      region: column3
+      weight: 0
+      uuid: 57b79252-4a0b-40c5-be7f-f3f3a0e69695
+      context_mapping: {  }
+  id: panels_variant
+  uuid: 54c6ea91-a54d-4c9c-83db-5d8911991d5d
+  label: null
+  weight: 0
+  layout: custom_foursquares
+  layout_settings: {  }
+  page_title: 'page test 4 squares'
+  storage_type: page_manager
+  storage_id: page_custom-panels_variant-0
+  builder: standard
+page: page_custom
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

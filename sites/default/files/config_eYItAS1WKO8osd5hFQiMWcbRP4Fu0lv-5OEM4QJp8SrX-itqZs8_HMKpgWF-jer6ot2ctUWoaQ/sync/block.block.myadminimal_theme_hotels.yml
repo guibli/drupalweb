@@ -1,0 +1,33 @@
+uuid: 82caa666-5f77-445b-899b-ef0d0ed3ce3c
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.hotels
+  module:
+    - menu_block
+    - system
+  theme:
+    - myadminimal_theme
+id: myadminimal_theme_hotels
+theme: myadminimal_theme
+region: '-1'
+weight: -12
+provider: null
+plugin: 'menu_block:hotels'
+settings:
+  id: 'menu_block:hotels'
+  label: Hôtels
+  provider: menu_block
+  label_display: visible
+  level: 1
+  depth: 0
+  expand: 0
+  parent: 'hotels:'
+  suggestion: hotels
+visibility:
+  request_path:
+    id: request_path
+    pages: '/hotel*'
+    negate: false
+    context_mapping: {  }

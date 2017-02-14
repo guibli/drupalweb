@@ -1,0 +1,22 @@
+uuid: fbc2ebaf-a229-4bc9-b818-aa8c8eaac2c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.visite_de_l_hotel
+id: paragraph.visite_de_l_hotel.status
+field_name: status
+entity_type: paragraph
+bundle: visite_de_l_hotel
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

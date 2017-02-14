@@ -1,0 +1,67 @@
+uuid: 6e487d41-e926-4610-a0f1-563b1a6e1b06
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.restaurant.field_note
+    - field.field.node.restaurant.field_photos_restaurant
+    - field.field.node.restaurant.field_restau_hotel
+    - field.field.node.restaurant.field_restaurant_description
+    - field.field.node.restaurant.field_tweet
+    - image.style.large
+    - node.type.restaurant
+  module:
+    - entity_reference_revisions
+    - fivestar
+    - image
+    - text
+    - user
+id: node.restaurant.default
+targetEntityType: node
+bundle: restaurant
+mode: default
+content:
+  field_note:
+    weight: 2
+    label: above
+    settings:
+      fivestar_widget: modules/fivestar/widgets/basic/basic.css
+    third_party_settings: {  }
+    type: fivestar_stars
+  field_photos_restaurant:
+    weight: 3
+    label: above
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_restau_hotel:
+    weight: 4
+    label: above
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+  field_restaurant_description:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_tweet:
+    weight: 5
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  langcode: true

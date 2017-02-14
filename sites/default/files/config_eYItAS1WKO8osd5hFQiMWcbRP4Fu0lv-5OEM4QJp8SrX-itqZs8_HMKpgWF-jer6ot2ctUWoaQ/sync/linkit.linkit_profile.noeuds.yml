@@ -1,0 +1,25 @@
+uuid: 31eb8936-d9c4-44dc-a1d9-39d05f74d131
+langcode: en
+status: true
+dependencies:
+  module:
+    - imce
+    - node
+third_party_settings:
+  imce:
+    use: true
+    scheme: public
+id: noeuds
+label: Noeuds
+description: Noeuds
+attributes: {  }
+matchers:
+  15f7bcf7-e578-4db3-916e-518a738ed252:
+    uuid: 15f7bcf7-e578-4db3-916e-518a738ed252
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles: {  }
+      group_by_bundle: false
+      include_unpublished: false

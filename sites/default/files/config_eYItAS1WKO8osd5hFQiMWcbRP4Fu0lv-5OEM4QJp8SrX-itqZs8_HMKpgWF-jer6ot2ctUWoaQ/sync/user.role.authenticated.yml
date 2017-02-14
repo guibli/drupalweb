@@ -1,0 +1,21 @@
+uuid: baafaf1d-701c-45aa-9f5f-b2fb010eef92
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Utilisateur authentifié'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format basic_html'
+  - 'access comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'access site-wide contact form'
+  - 'access shortcuts'
+  - 'search content'
+  - 'use text format full_html'
+  - 'subscribe to newsletters'

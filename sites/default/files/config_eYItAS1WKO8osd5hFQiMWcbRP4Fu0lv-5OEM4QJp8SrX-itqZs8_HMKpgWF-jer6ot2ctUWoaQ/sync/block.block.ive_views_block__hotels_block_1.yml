@@ -1,0 +1,30 @@
+uuid: 77151c80-7460-41d1-82f2-cac1ead0c525
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.hotels
+  module:
+    - system
+    - views
+  theme:
+    - ive
+id: ive_views_block__hotels_block_1
+theme: ive
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'views_block:hotels-block_1'
+settings:
+  id: 'views_block:hotels-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

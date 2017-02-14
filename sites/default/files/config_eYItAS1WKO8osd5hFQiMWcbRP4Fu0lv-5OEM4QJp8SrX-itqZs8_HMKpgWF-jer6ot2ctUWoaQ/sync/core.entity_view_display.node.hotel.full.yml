@@ -1,0 +1,259 @@
+uuid: f5853913-500c-4cf8-9021-b3f3c5350422
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.hotel.field_categorie
+    - field.field.node.hotel.field_description
+    - field.field.node.hotel.field_hotel_localisation
+    - field.field.node.hotel.field_photos
+    - field.field.node.hotel.field_type_d_hotel
+    - field.field.node.hotel.field_video_de_l_hotel
+    - node.type.hotel
+  module:
+    - colorbox
+    - ds
+    - entity_reference_revisions
+    - field_group
+    - geolocation
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col_stacked
+      path: modules/contrib/bootstrap_layouts
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          attributes: ''
+          add_layout_class: 1
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      top:
+        - node_submitted_by
+      bottom:
+        - node_author
+      main:
+        - group_hotel
+        - group_p
+        - group_galerie
+        - group_video
+        - links
+        - addtoany
+        - field_categorie
+        - field_type_d_hotel
+        - field_video_de_l_hotel
+        - field_description
+        - field_hotel_localisation
+        - field_photos
+    fields:
+      node_submitted_by:
+        plugin_id: node_submitted_by
+        weight: 0
+        label: hidden
+        formatter: ds_post_date_long
+      node_author:
+        plugin_id: node_author
+        weight: 0
+        label: hidden
+        formatter: author_linked
+  field_group:
+    group_p:
+      children:
+        - links
+        - addtoany
+        - field_categorie
+        - field_type_d_hotel
+        - field_description
+      parent_name: group_hotel
+      weight: 0
+      format_type: tab
+      format_settings:
+        label: Presentation
+        direction: horizontal
+        id: Presentation
+        classes: ''
+        formatter: closed
+        description: ''
+      label: Presentation
+    group_galerie:
+      children:
+        - field_photos
+      parent_name: group_hotel
+      weight: 1
+      format_type: tab
+      format_settings:
+        id: Galerie
+        classes: ''
+        direction: horizontal
+        formatter: closed
+        description: ''
+      label: Galerie
+    group_hotel:
+      children:
+        - group_p
+        - group_galerie
+        - group_video
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Hotel
+    group_video:
+      children:
+        - field_video_de_l_hotel
+        - field_hotel_localisation
+      parent_name: group_hotel
+      weight: 2
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: video
+    group_localisation:
+      children: {  }
+      parent_name: ''
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+      label: localisation
+id: node.hotel.full
+targetEntityType: node
+bundle: hotel
+mode: full
+content:
+  addtoany:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  field_categorie:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_description:
+    weight: 6
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_hotel_localisation:
+    weight: 7
+    label: hidden
+    settings:
+      set_marker: '1'
+      title: ''
+      info_text: ''
+      google_map_settings:
+        type: ROADMAP
+        zoom: '14'
+        mapTypeControl: 1
+        streetViewControl: 1
+        zoomControl: 1
+        scrollwheel: 1
+        gestureHandling: auto
+        draggable: 1
+        style: ''
+        height: 400px
+        width: 100%
+        info_auto_display: 1
+        disableAutoPan: 1
+        preferScrollingToZooming: 0
+        disableDoubleClickZoom: 0
+      use_overridden_map_settings: 0
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: geolocation_map
+  field_photos:
+    weight: 21
+    label: hidden
+    settings:
+      colorbox_node_style: ''
+      colorbox_node_style_first: ''
+      colorbox_image_style: ''
+      colorbox_gallery: post
+      colorbox_gallery_custom: ''
+      colorbox_caption: auto
+      colorbox_caption_custom: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: colorbox
+  field_type_d_hotel:
+    weight: 5
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    type: entity_reference_entity_view
+  field_video_de_l_hotel:
+    type: entity_reference_revisions_entity_view
+    weight: 6
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+  links:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

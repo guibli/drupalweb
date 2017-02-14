@@ -1,0 +1,26 @@
+uuid: 40c80b18-552d-4a30-8d51-478202522de0
+langcode: fr
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - myadminimal_theme
+_core:
+  default_config_hash: NeHSoqm4XFqA7_0bDmR429ZZQt3LRbZMNRJTMsFyOfI
+id: myadminimal_theme_tools
+theme: myadminimal_theme
+region: '-1'
+weight: -11
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Outils
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

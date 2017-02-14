@@ -1,0 +1,22 @@
+uuid: 291c9f8e-3d8c-4511-bc70-3dcecb620fe1
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - myadminimal_theme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: myadminimal_theme_messages
+theme: myadminimal_theme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  provider: system
+  label_display: '0'
+visibility: {  }

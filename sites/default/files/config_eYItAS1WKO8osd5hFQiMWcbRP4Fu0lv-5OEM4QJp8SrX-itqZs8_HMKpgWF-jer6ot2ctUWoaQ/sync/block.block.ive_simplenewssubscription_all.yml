@@ -1,0 +1,27 @@
+uuid: a65c3f53-e0ed-4dfc-8cf9-d3d7501d1d2d
+langcode: fr
+status: false
+dependencies:
+  module:
+    - simplenews
+  theme:
+    - ive
+_core:
+  default_config_hash: 7VBatnZZ8EQTDVDAjkNIUioK7GHmmCTb86EvLTCpBus
+id: ive_simplenewssubscription_all
+theme: ive
+region: '-1'
+weight: -13
+provider: null
+plugin: simplenews_subscription_block
+settings:
+  id: simplenews_subscription_block
+  label: 'Simplenews multiple subscriptions'
+  provider: simplenews
+  label_display: visible
+  newsletters:
+    default: default
+    press_releases: press_releases
+  message: 'Stay informed - subscribe to our newsletters.'
+  unique_id: 01de1b3e-e480-47a9-aa7b-77e84badada1
+visibility: {  }

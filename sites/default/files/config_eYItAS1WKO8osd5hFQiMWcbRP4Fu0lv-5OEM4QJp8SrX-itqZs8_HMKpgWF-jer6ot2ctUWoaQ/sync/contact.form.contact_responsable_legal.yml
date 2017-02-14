@@ -1,0 +1,20 @@
+uuid: d84897d1-7e4c-4a38-807a-2b6e40621fbe
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Send message'
+    show_preview: true
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+id: contact_responsable_legal
+label: 'Contact Responsable légal'
+recipients:
+  - guillaume.bleriot@gmail.com
+reply: ''
+weight: 0
+message: 'message envoyé au resp legal'
+redirect: ''

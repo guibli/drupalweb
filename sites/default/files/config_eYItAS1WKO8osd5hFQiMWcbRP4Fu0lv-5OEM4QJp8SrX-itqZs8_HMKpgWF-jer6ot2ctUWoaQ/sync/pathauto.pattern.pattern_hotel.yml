@@ -1,0 +1,22 @@
+uuid: f063091d-5ed3-4971-b487-7726be64fe3a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pattern_hotel
+label: 'pattern hotel'
+type: 'canonical_entities:node'
+pattern: '/hotels/[node:field_categorie]/[node:title]'
+selection_criteria:
+  2d7348e2-32de-4af6-a507-a128542c2b7f:
+    id: node_type
+    bundles:
+      hotel: hotel
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 2d7348e2-32de-4af6-a507-a128542c2b7f
+selection_logic: and
+weight: -5
+relationships: {  }

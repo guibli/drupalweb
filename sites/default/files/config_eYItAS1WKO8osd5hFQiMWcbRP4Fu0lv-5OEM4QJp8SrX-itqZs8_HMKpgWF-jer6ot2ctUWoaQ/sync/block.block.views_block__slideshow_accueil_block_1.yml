@@ -1,0 +1,36 @@
+uuid: e6f8a63a-0af1-4f7c-a687-3543d68d2252
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.slideshow_accueil
+  module:
+    - block_visibility_groups
+    - system
+    - views
+  theme:
+    - mybootstrap
+id: views_block__slideshow_accueil_block_1
+theme: mybootstrap
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:slideshow_accueil-block_1'
+settings:
+  id: 'views_block:slideshow_accueil-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

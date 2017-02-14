@@ -1,0 +1,5 @@
+correction_css:
+  version: VERSION
+  css:
+    theme:
+      css/myadminimal.css: {}

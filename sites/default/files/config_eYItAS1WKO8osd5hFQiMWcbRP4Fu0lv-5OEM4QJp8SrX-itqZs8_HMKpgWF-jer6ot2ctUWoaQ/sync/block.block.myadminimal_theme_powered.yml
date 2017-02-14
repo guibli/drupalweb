@@ -1,0 +1,22 @@
+uuid: a08bafda-6d5c-4604-bc78-c1ffead51656
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - myadminimal_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: myadminimal_theme_powered
+theme: myadminimal_theme
+region: '-1'
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

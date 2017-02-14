@@ -1,0 +1,18 @@
+uuid: 14fd7522-c504-4fbd-ab95-07cf4a24e76d
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.visite_de_l_hotel
+id: paragraph.visite_de_l_hotel.created
+field_name: created
+entity_type: paragraph
+bundle: visite_de_l_hotel
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created
